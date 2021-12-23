@@ -6,8 +6,8 @@ os: linux
 files:
 # source는 프로젝트 기준, destination은 instance 기준으로 입력해주고, 
 # source가 destination안에 복사됨
-  - source: /
-    destination: /home/ubuntu/build
+  - source: /startbootstrap-sb-admin-2-gh-pages/*
+    destination: /usr/share/nginx/html/
 hooks:
 # 주의 할 점은 빈칸 yml파일 특성상 빈칸 개수를 중시해야하고 Tab을 쓰면 안된다는점
 # AfterInstall앞은 2칸이다.
